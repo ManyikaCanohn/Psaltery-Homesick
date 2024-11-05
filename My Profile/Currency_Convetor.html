@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convetor</title>
+    <link rel="stylesheet" href="./Currency_Convetor.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="container">
+        <select name="/" id="contact">
+            <option value="contact" selected>Contacts</option>
+            <option value="097585259">097585259</option>
+            <option value="0774283579">0774283579</option>
+        </select>
+        <h2 id="header">Currency Convetor</h2>
+
+        <div id="data">
+            <label for="from" id="from">FROM</label><br>
+            <select name="from" id="myfrom" class="options">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD">USD</option>
+                <option value="ZMK" >ZMK</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR" selected>ZAR</option>
+        </select>
+            <br>
+            <br>
+
+            <button id="swap">Swap</button>
+            <br>
+
+            <br>
+
+            <label for="to" id="to">TO</label><br>
+            <select name="to" id="myTo" class="options">
+                    <option value="AED">AED</option>
+                    <option value="ARS">ARS</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BGN">BGN</option>
+                    <option value="BRL">BRL</option>
+                    <option value="BSD">BSD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CLP">CLP</option>
+                    <option value="CNY">CNY</option>
+                    <option value="COP">COP</option>
+                    <option value="CZK">CZK</option>
+                    <option value="DKK">DKK</option>
+                    <option value="DOP">DOP</option>
+                    <option value="EGP">EGP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="FJD">FJD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="GTQ">GTQ</option>
+                    <option value="HKD">HKD</option>
+                    <option value="HRK">HRK</option>
+                    <option value="HUF">HUF</option>
+                    <option value="IDR">IDR</option>
+                    <option value="ILS">ILS</option>
+                    <option value="INR">INR</option>
+                    <option value="ISK">ISK</option>
+                    <option value="JPY">JPY</option>
+                    <option value="KRW">KRW</option>
+                    <option value="KZT">KZT</option>
+                    <option value="MXN">MXN</option>
+                    <option value="MYR">MYR</option>
+                    <option value="NOK">NOK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="PAB">PAB</option>
+                    <option value="PEN">PEN</option>
+                    <option value="PHP">PHP</option>
+                    <option value="PKR">PKR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="PYG">PYG</option>
+                    <option value="RON">RON</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SAR">SAR</option>
+                    <option value="SEK">SEK</option>
+                    <option value="SGD">SGD</option>
+                    <option value="THB">THB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="TWD">TWD</option>
+                    <option value="UAH">UAH</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="ZMK" selected>ZMK</option>
+                    <option value="UYU">UYU</option>
+                    <option value="VND">VND</option>
+                    <option value="ZAR">ZAR</option>
+            </select>
+            <br><br>
+
+            <label for="amount"  id="amount" >AMOUNT</label>
+            <input type="number" id="mula" placeholder="Mula"><br>
+    
+            <br><br>
+            <button type="submit" id="convert">Convert</button>
+        </div>
+        <br>
+        <div class="loader"></div> 
+    </div>
+-->
+
+<div class="wrapper">
+    <header>Currency Convetor</header>
+
+    <form action="#">
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input type="text" value="1" name="" id="">
+        </div>
+        <div class="drop-list">
+            <div class="from">
+                <p>From</p>
+                <div class="select-box">
+                    <img src="https://flagsapi.com/ZM/flat/64.png" alt="flag">
+
+                    <select>
+                        <!-- Part for javaScript -->
+                    </select>
+                </div>
+            </div>
+            <div class="icon"><i class="fas fa-exhange-alt>"></i></div>
+            <div class="to">
+                <p>To</p>
+
+                <div class="select-box">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                    <select>
+                        <!-- Part for javaScript -->
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="exchange-rate">Get exchange rate........</div>
+        <button>Get Exchange Rate</button>
+    </form>
+</div>
+
+
+
+
+    <script src="./Currency_Convetor.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.min.js"></script>
+</body>
+</html>

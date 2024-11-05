@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manyika24</title>
+    <link rel="stylesheet" href="./Psaltery_Homesick_SignUp.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Sign_Up</h3>
+        <p>It's free and only takes a minute.</p>
+        <form id="submitForm">
+            <label for="fname" id="label">First Name</label>
+            <br>
+            <input type="text" placeholder="Manyika" id="fname" class="input">
+            <br>
+            <br>
+
+            <label for="lname" id="label">Last Name</label>
+            <br>
+            <input type="text" placeholder="Munyinda" id="lname" class="input">
+            <br>
+            <br>
+
+            <label for="username" id="label">Create Username</label>
+            <br>
+            <input type="text" placeholder="Canohn24" id="username" class="input"> 
+            <br>
+            <br>
+
+            <label for="tel" id="label">TelePhone</label>
+            <br>
+            <input type="tel" id="phone" maxlength="17" placeholder="+260-975-885-259" class="input">
+            <br>
+            <br>
+
+            <label for="email" id="label">Email Address</label>
+            <br>
+            <input type="email" id="email" placeholder="Canon24@gmail.com" maxlength="20" id="email" class="input">
+            <br>
+            <br>
+
+            <label for="bday" id="label" class="dateofbirth">Date of Birth</label>
+            <br>
+            <input type="date" id="bday" class="input">
+            <br>
+            <br>
+            
+            <label for="datalist" id="label">City</label>
+            <br>
+            <input list="datalist-cities" name="datalist-city" id="datalist-city" placeholder="Lusaka" class="input">
+        
+            <datalist id="datalist-cities">
+                <option value="Lusaka"></option>
+                <option value="Copperbelt"></option>
+                <option value="Kabwe"></option>
+                <option value="Mongu"></option>
+            </datalist>
+            <br>
+            <br>
+            <div id="radio">
+                <label for="male" >Male</label>
+                <input type="radio" id="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female">
+            </div>
+            <br>
+            <br>
+
+            <label for="password" id="label">Create Password</label>
+            <br>
+            <input type="password" placeholder="*******" minlength="4" maxlength="8" class="input" id="confirm-password1">
+            <br>
+            <br>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+            <br>
+            <br>
+            <label for="confirm password" id="label">Comfirm Password</label>
+            <br>
+            <input type="password" id="confirm-password2" minlength="4" maxlength="8" placeholder="********" class="input">
+            <br>
+            <br>
+            <button type="submit" id="submit-btn">Submit</button>
+            <!-- <input type="submit" id="submit-btn"> -->
+            
+        </form>
+        <p>Already have an account? <a href="./Psaltery_Homesick_Login.html">Login</a></p>
+        <p>I am <span style="color: #ff0000; margin-top: 10px;">Manyika24</span> a web Developer</p>
+    </div>
+    <script src="./Psaltery_Homesick_SignUp.js"></script>
+</body>
+</html>
